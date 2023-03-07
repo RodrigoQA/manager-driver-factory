@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>manager-get-driver-web</artifactId>
+    <artifactId>manager-driver-factory</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/RodrigoQA/manage-driver-factory</url>
+        </repository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
@@ -20,6 +28,7 @@
         </plugins>
     </build>
     <dependencies>
+
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-support</artifactId>
@@ -45,6 +54,7 @@
         <artifactId>phantomjsdriver</artifactId>
         <version>1.2.1</version>
     </dependency>
+
 </dependencies>
 
 </project>
