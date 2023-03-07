@@ -1,3 +1,5 @@
+package br.com.qautils.managedriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,8 +17,8 @@ import java.util.logging.Logger;
 
 public class DriverFactory {
 
-    private static WebDriver driver;
-    private static Enum nomeNavegador;
+    public static WebDriver driver;
+    public static Enum nomeNavegador;
     public static Logger log = Logger.getLogger("QALogger");
 
 
