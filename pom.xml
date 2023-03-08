@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <distributionManagement>
         <repository>
-            <id>manager-driver-factory</id>
+            <id>610890888</id>
             <name>GitHub RodrigoQA Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/RodrigoQA/manager-driver-factory</url>
         </repository>
